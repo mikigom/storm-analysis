@@ -1,0 +1,5 @@
+{"background": {"photons": "20", "class": "UniformBackground"}}
+{"camera": {"emccd_gain": "5.0", "preamp_gain": "1.0", "read_noise": "5", "class": "Ideal", "baseline": "100.0"}}
+{"photophysics": {"photons": "4000.0", "class": "SimpleSTORM", "on_time": "1.0", "off_time": "10.0"}}
+{"psf": {"zmn": "[[1.3, 2, 2]]", "nm_per_pixel": "100.0", "wavelength": "600", "refactrive_index": "1.5", "class": "PupilFunction", "numerical_aperture": "1.4"}}
+{"simulation": {"y_size": "161", "x_size": "161", "bin_file": "i3_plate.bin"}}
