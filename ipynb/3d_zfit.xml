@@ -22,7 +22,11 @@
        Z - x, y sigma depend on z, z is fit as
            part of peak fitting.
        -->
+<<<<<<< HEAD
+  <model type="string">3d</model>
+=======
   <model type="string">Z</model>
+>>>>>>> 04e6dd0c29f6c92980c21cb594bba3d522186530
 
   <!-- Maximum number of iterations for new peak finding -->
   <iterations type="int">20</iterations>
@@ -32,7 +36,11 @@
   <baseline type="float">100.0</baseline>
 
   <!-- CCD pixel size (in nm) -->
+<<<<<<< HEAD
+  <pixel_size type="float">160.0</pixel_size>
+=======
   <pixel_size type="float">167.0</pixel_size>
+>>>>>>> 04e6dd0c29f6c92980c21cb594bba3d522186530
 
   <!-- CCD orientation -->
   <!-- Generally you should use "normal", but if you want
@@ -48,7 +56,11 @@
        dimmest peak that you want to detect. If this is 
        too low more background will be detected. If it 
        is too high more peaks will be missed. -->
+<<<<<<< HEAD
+  <threshold type="float">300.0</threshold>
+=======
   <threshold type="float">200.0</threshold>
+>>>>>>> 04e6dd0c29f6c92980c21cb594bba3d522186530
 
   <!-- initial guess for sigma -->
   <!-- This is in units of pixels. If you are using the 
@@ -80,7 +92,10 @@
        If this is zero then no matching will be done. -->
   <radius type="float">0.0</radius>
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 04e6dd0c29f6c92980c21cb594bba3d522186530
   <!-- Z fitting parameters. -->
 
   <!-- do z fitting (or not), only relevant for "3d" fitting. -->
