@@ -25,11 +25,11 @@
   <model type="string">3d</model>
 
   <!-- Maximum number of iterations for new peak finding -->
-  <iterations type="int">20</iterations>
+  <iterations type="int">50</iterations>
 
   <!-- CCD baseline -->
   <!-- This is what the camera reads with the shutter closed. -->
-  <baseline type="float">100.0</baseline>
+  <baseline type="float">200.0</baseline>
 
   <!-- CCD pixel size (in nm) -->
   <pixel_size type="float">100.0</pixel_size>
@@ -48,7 +48,7 @@
        dimmest peak that you want to detect. If this is 
        too low more background will be detected. If it 
        is too high more peaks will be missed. -->
-  <threshold type="float">30.0</threshold>
+  <threshold type="float">2000.0</threshold>
 
   <!-- initial guess for sigma -->
   <!-- This is in units of pixels. If you are using the 
@@ -59,7 +59,7 @@
        peak sigma or the fitting might fail to converge on 
        many peaks. 3d is similar to 2d. It should not effect 
        fitting for Z the model. -->
-  <sigma type="float">1.0</sigma>
+  <sigma type="float">4.0</sigma>
 
   <!-- Tracking parameters -->
   <!-- Frame descriptor string
@@ -78,13 +78,13 @@
        and are averaged together to create a (hopefully) 
        more accurately localized emitter. 
        If this is zero then no matching will be done. -->
-  <radius type="float">5</radius>
+  <radius type="float">0.0</radius>
 
 
   <!-- Z fitting parameters. -->
 
   <!-- do z fitting (or not), only relevant for "3d" fitting. -->
-  <do_zfit type="int">1</do_zfit>
+  <do_zfit type="int">0</do_zfit>
 
   <!-- z fit cutoff (used when z is calculated later from wx, wy). -->
   <cutoff type="float">500.0</cutoff>
